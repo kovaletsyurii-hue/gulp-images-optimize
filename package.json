@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kovaletsyurii-hue/gulp-images-optimize#readme",
   "dependencies": {
     "gulp": "^4.0.2",
+    "gulp-image-resize": "^0.13.1",
     "gulp-imagemin": "7.1.0"
   }
 }
