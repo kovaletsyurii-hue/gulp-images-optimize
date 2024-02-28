@@ -1,0 +1,24 @@
+{
+  "name": "gulp-images-optimize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "optimize": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kovaletsyurii-hue/gulp-images-optimize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kovaletsyurii-hue/gulp-images-optimize/issues"
+  },
+  "homepage": "https://github.com/kovaletsyurii-hue/gulp-images-optimize#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "7.1.0"
+  }
+}
