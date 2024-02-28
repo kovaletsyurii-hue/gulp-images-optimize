@@ -7,7 +7,7 @@ const dest = 'optimized/';
 function optimizeImages() {
   return gulp.src([src + '*.{jpg,png}'])
     .pipe(imagemin([
-      imagemin.mozjpeg({quality: 90, progressive: true}),
+      imagemin.mozjpeg({quality: 75, progressive: true}),
       imagemin.optipng({optimizationLevel: 5}),
     ]))
     .pipe(gulp.dest(dest));
